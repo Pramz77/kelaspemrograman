@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KelasPemrograman</title>
+    <style>
+        /* Atur margin dan padding nol agar tidak ada ruang kosong di sekitar halaman */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Atur tabel untuk memenuhi layar penuh */
+        table {
+            width: 100%;
+            height: 100vh;
+            border-collapse: collapse;
+        }
+
+        /* Mengatur gambar agar sesuai dengan lebar halaman */
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        /* Navigasi sederhana */
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ba001a;
+        }
+
+        /* Sidebar dan konten */
+        .sidebar {
+            background-color: #2e2e2e;
+            padding: 15px;
+        }
+
+        .content {
+            padding: 20px;
+            background-color: #1e1e1e;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Tabel Utama untuk Mengatur Layout -->
+<table border="1" cellpadding="0" cellspacing="0">
+    <!-- Header dengan Gambar -->
+    <tr style="height: 20%;">
+        <td colspan="2">
+            <img src="Header2.jpg" alt="Sekiro">
+        </td>
+    </tr>
+
+    <!-- Bar Navigasi -->
+    <tr style="height: 5%;">
+        <td colspan="2" align="center" style="background-color: #333;">
+            <nav>
+                <a href="https://www.instagram.com/_.akbarp/?hl=en" target="_blank">Media Sosial</a> |
+                <a href="Kontak.html">Kontak</a>
+            </nav>
+        </td>
+    </tr>
+
+    <!-- Konten dengan Sidebar dan Isi -->
+    <tr style="height: 100%;">
+        <!-- Sidebar Kiri -->
+        <td align="center">
+            <img src="Sidebar.jpg" >
+        </td>
+
+        <!-- Isi Konten -->
+        <td class="content" valign="top">
+            <h2>HTML</h2>
+            <p>(Hypertext Markup Language) Digunakan untuk membuat struktur dasar halaman web</p>
+            <br>
+            <h2>CSS</h2>
+            <p>(Cascading Style Sheets) Berfungsi untuk mengatur tampilan visual dan tata letak halaman</p>
+            <br>
+            <h2>JavaScript</h2>
+            <p>Bahasa pemrograman yang memungkinkan interaksi dinamis di situs web</p>
+            <br>
+            <h2>MySQL</h2>
+            <p>Sistem manajemen basis data yang digunakan untuk menyimpan dan mengelola data situs web secara efisien</p>
+            <br>
+            <h2>PHP</h2>
+            <p>Bahasa server-side yang digunakan untuk menangani logika bisnis dan pengolahan data di server</p>
+        </td>
+    </tr>
+
+    <!-- Footer -->
+    <tr style="height: 5%;">
+        <td colspan="2">
+            <footer>
+                <p>&copy; 2024 - Akbar Pramudya</p>
+            </footer>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html
